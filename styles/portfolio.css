@@ -54,12 +54,15 @@ nav ul{
     display: flex;
     align-items: center;
 }
+.secondary-b{
+    background-color: #FFF8F3;
+}
 
 /* Banner style */
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    /* margin: 0 35px 0 200px; */
 }
 .banner_content{
     max-width: 580px;
@@ -77,3 +80,39 @@ nav ul{
 .banner-p{
     width: 580px;
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.section-t{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818 ;
+
+}
+.section-d{
+    font-size: 18px;
+    font-weight: none;
+    color: #757575;
+
+}
+ /* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.item-d{
+    font-weight: 600;
+
+}
+.about-ti{
+    display: flex;
+    justify-content: space-around;
+}
+
+
